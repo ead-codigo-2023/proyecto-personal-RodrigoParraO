@@ -1,36 +1,45 @@
-.logonegro {
-    width: 10px;
-}
+header {
+display: grid;
+grid-template-columns: 128px 1fr;
 
-.menu {
+}
+.logonegro{
+    padding: 13px;
+    width: 128px;
+}
+.menu{
     display: flex;
+    list-style: none;
+    justify-content: end;
+}
+ul li{
+    padding: 20px;
+    font-size: x-large;
+    font-size: 20px;
 }
 
-.box {
-    width: 20%;
-    padding: 10px;
-    border: 1px solid #000000;
-}
-
-.box:first-child {
-    flex-shrink: 1;
-}
 
 .intro {
     display: grid;
     grid-template-columns: 1fr;
     height: 705px;
-    width: 1440px;
-    background-image: url(imagenes/fondoinicio.jpg)
+    width: 100%;
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/fondoinicio.jpg);
+    
 }
 
-.logoblanco {
+.logoblanco1 {
+    display: grid 1fr;
+
     height: 79px;
     width: 195px;
 }
 
 .oficina {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
 }
 
@@ -45,22 +54,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    gap: 10px;
 }
 
 .serviciosboton {
     border-radius: 80px;
-    width: 710px;
     height: 710px;
     background-image: url(imagenes/boton.jpg);
 }
 
 .portafolioboton {
     border-radius: 80px;
-    width: 710px;
     height: 710px;
     background-image: url(imagenes/boton.jpg);
 }
 
 .final {
     background-color: #000000;
+    height:640px;
+}
+
+.logoblanco2 {
+    padding-left: 48px;
+    padding-top: 53px;
+    height: 79px;
+    width: 195px;
 }
