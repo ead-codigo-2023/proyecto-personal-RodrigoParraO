@@ -1,0 +1,66 @@
+.logonegro {
+    width: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.box {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.box:first-child {
+    flex-shrink: 1;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 705px;
+    width: 1440px;
+    background-image: url(imagenes/fondoinicio.jpg)
+}
+
+.logoblanco {
+    height: 79px;
+    width: 195px;
+}
+
+.oficina {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.contactoboton {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.serviciosboton {
+    border-radius: 80px;
+    width: 710px;
+    height: 710px;
+    background-image: url(imagenes/boton.jpg);
+}
+
+.portafolioboton {
+    border-radius: 80px;
+    width: 710px;
+    height: 710px;
+    background-image: url(imagenes/boton.jpg);
+}
+
+.final {
+    background-color: #000000;
+}
