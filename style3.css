@@ -1,0 +1,258 @@
+.contactob{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logonegro {
+    padding: 13px;
+    width: 128px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+ul li {
+    padding: 20px;
+    font-size: x-large;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.serviciotitulo {
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-left: 570px;
+    margin-right: 550px;
+
+}
+
+.servicios {
+    display: grid;
+    height: 1700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/fondoservicio.png);
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 300px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 350px;
+    gap: 20px;
+
+}
+
+.logos {
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    background: #FFA5A4;
+}
+
+.logos h2 {
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+    color: #191D52;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.logos p {
+    margin-left: 75px;
+    margin-right: 134px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.plantillas {
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    background: #FFA5A4;
+}
+
+.plantillas h2 {
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+    color: #191D52;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.plantillas p {
+    margin-left: 75px;
+    margin-right: 134px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.iconografia {
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    background: #FFA5A4;
+}
+
+.iconografia h2 {
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+    color: #191D52;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.iconografia p{
+    margin-left: 75px;
+    margin-right: 134px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.promocion {
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    background: #FFA5A4;
+}
+
+.promocion h2 {
+    display: block;
+    border-radius: 25px;
+    background-color: white;
+    color: #191D52;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+.promocion p{
+    margin-left: 75px;
+    margin-right: 134px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.final {
+    background-color: #000000;
+    height: 640px;
+    margin-top: 207px;
+}
+
+.logoblanco2 {
+    padding-left: 48px;
+    padding-top: 53px;
+    height: 79px;
+    width: 195px;
+}
+
+.correo {
+    margin-top: 20px;
+    margin-left: 950px;
+}
+
+.correo h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.correo ul {
+    list-style: none;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.rrs {
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: 570px;
+    margin-top: 70px;
+}
+
+.redes{
+    width: 300px;
+    height: 60px;
+}

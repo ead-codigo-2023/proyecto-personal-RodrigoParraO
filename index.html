@@ -6,18 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        function scrollToSection(className) {
+            const targetElement = document.querySelector(`.${className}`);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 
 </head>
+
 
 <body>
     <header>
         <img class="logonegro" src="imagenes/mtiznegro.png" alt="logonegro">
         <ul class="menu">
-            <li class="nav"> Metodología </li>
-            <li class="nav"> Contacto </li>
-            <li class="nav"> Servicios </li>
-            <li class="nav"> Portafolio </li>
-            <li class="nav"> ¿Quienes Somos? </li>
+            <a href="index.html">
+                <li class="nav"> Inicio </li>
+            </a>
+
+            <div class="contactob" onclick="scrollToSection('final')">
+                <li class="nav"> Contacto </li>
+            </div>
+
+            <a href="index5.html">
+                <li class="nav"> Metodología </li>
+            </a>
+
+            <a href="index3.html">
+                <li class="nav"> Servicios </li>
+            </a>
+
+            <a href="index4.html">
+                <li class="nav"> Portafolio </li>
+            </a>
+
+            <a href="index2.html">
+                <li class="nav"> ¿Quienes Somos? </li>
+            </a>
         </ul>
     </header>
 
@@ -27,25 +56,45 @@
         <img class="logoblanco1" src="imagenes/mtizblanco.png" alt="logoblanco">
         <div class="oficina">
             <p>Oficina de diseño orientada a asesorar a los pequeños emprendedores.</p>
-            <h2>¡Ojalá sean parte de este lindo proyecto!¡Contáctanos!</h2>
+            <h2>¡Ojalá sean parte de este lindo proyecto!</h2>
+            <h2>¡Contactenos!</h2>
         </div>
 
         <div class="contactoboton">
-            <p> Contacto </p>
+            <div class="contactob" onclick="scrollToSection('final')">
+                <p> Contacto </p>
+            </div>
         </div>
     </div>
-    
+
     <div class="botones">
         <div class="serviciosboton">
-            <h2> Servicios </h2>
+            <a href="index3.html">
+                <h2> Servicios </h2>
+            </a>
         </div>
         <div class="portafolioboton">
-            <h2> Portafolio </h2>
+            <a href="index4.html">
+                <h2> Portafolio </h2>
+            </a>
         </div>
     </div>
 
     <div class="final">
         <img class="logoblanco2" src="imagenes/mtizblanco.png" alt="logoblanco">
+        <div class="correo">
+            <h1>Contacto</h1>
+            <ul>
+                <li>Correo: mtizchile@gmail.com</li>
+                <li>WhatsApp: +56985007434</li>
+                <li>Instagram: @mtiz.design</li>
+            </ul>
+        </div>
+        <div class="rrs">
+            <h1>¡Siguenos!</h1>
+            <img class="redes" src="imagenes/redes.png" alt="redes sociales">
+
+        </div>
     </div>
 </body>
 

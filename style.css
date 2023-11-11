@@ -1,21 +1,39 @@
-header {
-display: grid;
-grid-template-columns: 128px 1fr;
-
+.contactob{
+    cursor: pointer;
 }
-.logonegro{
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logonegro {
     padding: 13px;
     width: 128px;
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
     justify-content: end;
 }
-ul li{
+
+ul li {
     padding: 20px;
     font-size: x-large;
     font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -25,30 +43,68 @@ ul li{
     height: 705px;
     width: 100%;
 
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(imagenes/fondoinicio.jpg);
-    
+
 }
 
 .logoblanco1 {
-    display: grid 1fr;
-
     height: 79px;
     width: 195px;
+    padding-left: 617px;
+    padding-top: 208px
 }
 
-.oficina {
-    grid-template-columns: 1fr 1fr;
+
+.intro p {
     text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+    margin-top: 25px;
+}
+
+.intro h2 {
+    color: #FFA5A4;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .contactoboton {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 95px;
+}
+
+.contactoboton p {
     text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 20px;
+
 
 }
+
+.oficina {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
 
 .botones {
     display: grid;
@@ -58,20 +114,49 @@ ul li{
 }
 
 .serviciosboton {
+    margin-top: 142px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 80px;
     height: 710px;
     background-image: url(imagenes/boton.jpg);
 }
 
+.serviciosboton h2 {
+    padding-top: 240px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
 .portafolioboton {
+    margin-top: 142px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 80px;
     height: 710px;
     background-image: url(imagenes/boton.jpg);
+}
+
+.portafolioboton h2 {
+    padding-top: 240px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 .final {
     background-color: #000000;
-    height:640px;
+    height: 640px;
+    margin-top: 207px;
 }
 
 .logoblanco2 {
@@ -79,4 +164,44 @@ ul li{
     padding-top: 53px;
     height: 79px;
     width: 195px;
+}
+
+.correo {
+    margin-top: 20px;
+    margin-left: 950px;
+}
+
+.correo h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.correo ul {
+    list-style: none;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.rrs {
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: 570px;
+    margin-top: 70px;
+}
+.redes{
+    width: 300px;
+    height: 60px;
 }

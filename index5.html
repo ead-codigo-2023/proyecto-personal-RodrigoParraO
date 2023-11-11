@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        function scrollToSection(className) {
+            const targetElement = document.querySelector(`.${className}`);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </head>
+
 <body>
-    <ul class="menu">
-        <li> Metodología </li>
-        <li> Contacto </li>
-        <li> Servicios </li>
-        <li> Portafolio </li>
-        <li> ¿Quienes Somos? </li>
-    </ul>
+    <header>
+        <img class="logonegro" src="imagenes/mtiznegro.png" alt="logonegro">
+        <ul class="menu">
+            <a href="index.html">
+                <li class="nav"> Inicio </li>
+            </a>
+
+            <div class="contactob" onclick="scrollToSection('final')">
+                <li class="nav"> Contacto </li>
+            </div>
+
+            <a href="index5.html">
+                <li class="nav"> Metodología </li>
+            </a>
+
+            <a href="index3.html">
+                <li class="nav"> Servicios </li>
+            </a>
+
+            <a href="index4.html">
+                <li class="nav"> Portafolio </li>
+            </a>
+
+            <a href="index2.html">
+                <li class="nav"> ¿Quienes Somos? </li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="intrometo">
+        <img class="logoblanco1" src="imagenes/mtizblanco.png" alt="logoblanco">
+
+        <div class="oficina">
+            <p>Oficina de Diseño Grafico e industrial</p>
+            <p>Asesoramiento de marca para pequeños y grandes emprendedores</p>
+
+        </div>
+    </div>
+
+    <div class="titulometo">
+        <h2>Metodología de trabajo</h2>
+        <p>Integramos el diseño, la tecnología y psicología para desarrollar cada uno de nuestros proyectos que mas
+            se acomoden a nuestro cliente</p>
+        <img class="iconos" src="imagenes/metodologias.png" alt="metodologias">
+    </div>
+    <div class="metodologías">
+
+        <div class="productividad">
+
+            <h3>Productividad</h3>
+            <p>El diseño de marca tiene un impacto significativo en la productividad, por lo que estamos
+                constantemente en busca de mejores opciones para el cliente</p>
+        </div>
+
+        <div class="tecnologia">
+
+            <h3>Tecnologia</h3>
+            <p>Hacemos uso de la tecnología disponible o que mas se acomode al cliente, considerando siempre su
+                propósito y conocimientos de diseño.</p>
+
+        </div>
+
+        <div class="satisfacción">
+
+            <h3>Satisfacción</h3>
+            <p>Promovemos por sobre todo la satisfacción del cliente, ya que un buen diseño es un factor importante
+                en cualquier marca. </p>
+
+        </div>
+
+        <div class="comunicación">
+
+            <h3>Comunicación</h3>
+            <p>Fomentamos la buena comunicación entre nuestro equipo de trabajo con el cliente, siempre en base al
+                respeto mutuo.</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="final">
+        <img class="logoblanco2" src="imagenes/mtizblanco.png" alt="logoblanco">
+        <div class="correo">
+            <h1>Contacto</h1>
+            <ul>
+                <li>Correo: mtizchile@gmail.com</li>
+                <li>WhatsApp: +56985007434</li>
+                <li>Instagram: @mtiz.design</li>
+            </ul>
+        </div>
+        <div class="rrs">
+            <h1>¡Siguenos!</h1>
+            <img class="redes" src="imagenes/redes.png" alt="redes sociales">
+
+        </div>
+    </div>
 </body>
+
 </html>

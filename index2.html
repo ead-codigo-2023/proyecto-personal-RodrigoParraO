@@ -5,42 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        function scrollToSection(className) {
+            const targetElement = document.querySelector(`.${className}`);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li> Metodología </li>
-        <li> Contacto </li>
-        <li> Servicios </li>
-        <li> Portafolio </li>
-        <li> ¿Quienes Somos? </li>
-    </ul>
+    <header>
+        <img class="logonegro" src="imagenes/mtiznegro.png" alt="logonegro">
+        <ul class="menu">
+            <a href="index.html">
+                <li class="nav"> Inicio </li>
+            </a>
 
-    <div class="quienes Somos?">
+            <div class="contactob" onclick="scrollToSection('final')">
+                <li class="nav"> Contacto </li>
+            </div>
+
+            <a href="index5.html">
+                <li class="nav"> Metodología </li>
+            </a>
+            
+            <a href="index3.html">
+                <li class="nav"> Servicios </li>
+            </a>
+
+            <a href="index4.html">
+            <li class="nav"> Portafolio </li>
+            </a>
+
+            <a href="index2.html">
+                <li class="nav"> ¿Quienes Somos? </li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="quienes">
         <h1> ¡Hola!</h1>
-        <p> Somos 2 estudiantes de 4to de año de diseño.Creamos “MTIZ”, Una oficina de diseño con el propósito de
+        <p> Somos 2 estudiantes de 4to de año de diseño.
+            Creamos <strong>"MTIZ"</strong>, Una oficina de diseño con el propósito de
             asesorar y ayudar a los pequeños emprendedores y asi mejorar su imagen.</p>
-        <p>¡Ojalá sean parte de este lindo proyecto!</p>
+        <h2>¡Ojalá sean parte de este lindo proyecto!</h2>
+    </div>
+    <div class="integrantes">
+        <div class="maria">
+            <img class="perfil1" src="imagenes/perfil.png" alt="Maria">
+            <h1> Maria Eliza Mondaca</h1>
+
+            <h2> Socio fundador / Diseñadora de la
+                Pontificia Universidad Católica De Valparaíso
+                /CEO
+            </h2>
+
+            <p> Diseñadora con años de experiencia en el rubro de diseño de marca y la ilustración con grandes
+                colaboraciones con empresas internacionales.</p>
+        </div>
+
+        <div class="rodrigo">
+            <img class="perfil2" src="imagenes/perfil.png" alt="Rodrigo">
+            <h1> Rodrigo Parra Ortiz</h1>
+
+            <h2> Socio fundador / Diseñador de la
+                Pontificia Universidad Católica De Valparaíso
+                /Director Creativo</h2>
+
+            <p>Diseñador Industrial con experiencia en el diseño digital e Ilustración.</p>
+
+        </div>
     </div>
 
-    <div class="maria">
-        <h1> Maria Eliza Mondaca</h1>
-        <p>Socio fundador / Diseñadora
-            Pontificia Universidad Católica De Valparaíso
-            CEO
-        </p>
-        <p> Diseñadora con años de experiencia en el rubro de diseño de marca y la ilustración con grandes
-            colaboraciones con empresas internacionales.</p>
-    </div>
+    <div class="final">
+        <img class="logoblanco2" src="imagenes/mtizblanco.png" alt="logoblanco">
+        <div class="correo">
+            <h1>Contacto</h1>
+            <ul>
+                <li>Correo: mtizchile@gmail.com</li>
+                <li>WhatsApp: +56985007434</li>
+                <li>Instagram: @mtiz.design</li>
+            </ul>
+        </div>
+        <div class="rrs">
+            <h1>¡Siguenos!</h1>
+            <img class="redes" src="imagenes/redes.png" alt="redes sociales">
 
-    <div class="rodrigo">
-        <h1> Rodrigo Parra Ortiz</h1>
-        <p> Socio fundador / Diseñadora
-            Pontificia Universidad Católica De Valparaíso
-            Director Creativo</p>
-        <p>Diseñador Industrial con experiencia en el diseño digital e Ilustración.</p>
-
+        </div>
     </div>
+</body>
 </body>
 
 </html>

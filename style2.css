@@ -1,0 +1,233 @@
+.contactob{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logonegro {
+    padding: 13px;
+    width: 128px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    
+}
+
+ul li {
+    padding: 20px;
+    font-size: x-large;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.quienes {
+    display: grid;
+    height: 705px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imagenes/fondoquienes.png);
+
+
+}
+
+.quienes h1 {
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 130px;
+}
+
+.quienes p {
+    margin-left: 130px;
+    margin-right: 490px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quienes h2 {
+    margin-left: 130px;
+    color: #FFA5A4;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 140px;
+}
+
+.integrantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.maria {
+    text-align: center;
+    border-radius: 80px;
+    background: #191D52;
+    width: 690px;
+    height: 950px;
+}
+.perfil1{
+    margin-top: 85px;
+}
+.maria h1 {
+    color: #FFA5A4;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.maria h2 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.maria p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.rodrigo {
+    text-align: center;
+    border-radius: 80px;
+    background: #191D52;
+    width: 690px;
+    height: 950px;
+}
+.perfil2{
+    margin-top: 85px;
+}
+.rodrigo h1 {
+    color: #FFA5A4;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.rodrigo h2 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.rodrigo p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+.final {
+    background-color: #000000;
+    height: 640px;
+    margin-top: 207px;
+}
+
+.logoblanco2 {
+    padding-left: 48px;
+    padding-top: 53px;
+    height: 79px;
+    width: 195px;
+}
+
+.correo {
+    margin-top: 20px;
+    margin-left: 950px;
+}
+
+.correo h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.correo ul {
+    list-style: none;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.rrs {
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    margin-left: 570px;
+    margin-top: 70px;
+}
+.redes{
+    width: 300px;
+    height: 60px;
+}
