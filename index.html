@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
+    
+     <!-- Script para que al apretar "cotacto" haga scroll hasta donde se encuentran los datos de contacto -->
+     <!-- Entiendo que los script no van aqui sino en script.js pero no me funciono de otra manera :( -->
     <script>
         function scrollToSection(className) {
             const targetElement = document.querySelector(`.${className}`);
@@ -21,8 +23,11 @@
 
 
 <body>
+     <!--Menu superior-->
     <header>
-        <img class="logonegro" src="imagenes/mtiznegro.png" alt="logonegro">
+        <a href="index.html">
+            <img class="logonegro" src="imagenes/mtiznegro.png" alt="logo negro">
+        </a>
         <ul class="menu">
             <a href="index.html">
                 <li class="nav"> Inicio </li>
@@ -53,8 +58,8 @@
 
 
     <div class="intro">
-        <img class="logoblanco1" src="imagenes/mtizblanco.png" alt="logoblanco">
-        <div class="oficina">
+        <img class="logoblanco1" src="imagenes/mtizblanco.png" alt="logo blanco">
+        <div class="oficina1">
             <p>Oficina de diseño orientada a asesorar a los pequeños emprendedores.</p>
             <h2>¡Ojalá sean parte de este lindo proyecto!</h2>
             <h2>¡Contactenos!</h2>
@@ -81,7 +86,7 @@
     </div>
 
     <div class="final">
-        <img class="logoblanco2" src="imagenes/mtizblanco.png" alt="logoblanco">
+        <img class="logoblanco2" src="imagenes/mtizblanco.png" alt="logo blanco2">
         <div class="correo">
             <h1>Contacto</h1>
             <ul>
